@@ -1,5 +1,3 @@
-# Class_TwoLayerNN_and_Data_Classification
-
 - In "OneHiddenLayerNN.ipynb" we build a class for an " input layer/vector - hidden layer - output" neural network.
 The cost function considered is the sum of squared errors and the network is trained with a "minibatch SGD" optimizer.
 
