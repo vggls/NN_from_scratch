@@ -7,5 +7,5 @@ In both case we tune the network with Grid Search and draw a classifier that sep
 
 - ( **to be added in the future** )
 In order to use the network in more complicated cases we will : 
-1. Reformulate the "backpropagation" method so that a regularizer term can also be considered for the network training (the regularizer choice will be optional for the user)
-2. Build a separate class for optimizers and make the network class a child-class of the optimizers class. In that way we will be able to consider more optimizers for training.
+1. Reformulate the "backpropagation" method so that a **regularizer term** can also be considered for the network training (the regularizer choice will be optional for the user)
+2. Build a separate **class for optimizers** and make the network class a child-class of the optimizers class. In that way we will be able to consider more optimizers for training. Potential additional optimizers include **Adam** and **Momentum Gradient Descent**.
